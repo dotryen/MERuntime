@@ -1,0 +1,7 @@
+[submodule "runtime/vendor/vfspp"]
+	path = runtime/vendor/vfspp
+	url = https://github.com/dotryen/vfspp.git
+[submodule "runtime/vendor/imgui"]
+	path = runtime/vendor/imgui
+	url = https://github.com/ocornut/imgui.git
+	branch = docking

@@ -1,0 +1,6 @@
+# SHADERS
+runtime/shaders/*.spv
+
+# JETBRAINS
+.idea/*
+cmake-build-*
