@@ -5,3 +5,7 @@
 	path = runtime/vendor/imgui
 	url = https://github.com/ocornut/imgui.git
 	branch = docking
+[submodule "runtime/vendor/MECore"]
+	path = runtime/vendor/MECore
+	url = https://github.com/dotryen/MECore.git
+	branch = master
