@@ -25,6 +25,8 @@ set(imgui_srcs
         ${CMAKE_CURRENT_SOURCE_DIR}/vendor/imgui/imstb_textedit.h
         ${CMAKE_CURRENT_SOURCE_DIR}/vendor/imgui/imstb_truetype.h
         ${CMAKE_CURRENT_SOURCE_DIR}/vendor/imgui/imgui_demo.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/vendor/imgui/misc/cpp/imgui_stdlib.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/vendor/imgui/misc/cpp/imgui_stdlib.h
         ${CMAKE_CURRENT_SOURCE_DIR}/vendor/imgui/backends/imgui_impl_sdl3.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/vendor/imgui/backends/imgui_impl_sdl3.h)
 
