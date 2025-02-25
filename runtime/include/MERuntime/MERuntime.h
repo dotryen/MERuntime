@@ -4,7 +4,15 @@
 
 #pragma once
 
+#include <MECore/MECore.h>
+
 namespace ME {
-    void Runtime_Initialize();
+    struct AppInfo {
+        std::string name;
+    };
+
+    inline AppInfo appInfo;
+
+    bool Runtime_Initialize();
     void Runtime_Shutdown();
 }
